@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  ============================================================
+  REKINDLEDFX — Publisher website (GitHub Pages)
+  BEFORE PUBLISHING, REPLACE THESE 3 THINGS:
+   1) The four YouTube video IDs — search "VIDEO_ID" below.
+      (The ID is the part after v= in a YouTube URL, e.g.
+       https://www.youtube.com/watch?v=ABC123xyz  ->  ABC123xyz)
+      Videos must be Public or Unlisted for the embed to play.
+   2) YOUR_PUBLISHER_URL — your Unity Asset Store publisher page link.
+   3) Confirm the contact email (currently be.snake@gmail.com).
+  ============================================================
+-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RekindledFX — Procedural VFX for Unity</title>
+<style>
+  :root { --bg:#0d1017; --panel:#151a24; --text:#e6ebf2; --muted:#9aa6b6; --accent:#ff6a2b; --accent2:#3aa0ff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"Segoe UI",Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+  a { color:var(--accent2); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .wrap { max-width:1000px; margin:0 auto; padding:0 20px; }
+  header { text-align:center; padding:64px 20px 40px;
+    background:radial-gradient(circle at 50% 0%, #241109 0%, var(--bg) 60%); }
+  h1 { font-size:44px; letter-spacing:1px;
+    background:linear-gradient(90deg,var(--accent),#ffb347); -webkit-background-clip:text;
+    background-clip:text; -webkit-text-fill-color:transparent; }
+  .tag { color:var(--muted); font-size:18px; margin-top:8px; }
+  .intro { max-width:720px; margin:20px auto 0; color:#c3cdd9; }
+  section { padding:40px 0; }
+  h2 { font-size:24px; margin-bottom:20px; border-left:4px solid var(--accent); padding-left:12px; }
+  .videos { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px; }
+  .video { background:var(--panel); border-radius:10px; overflow:hidden; }
+  .video .frame { position:relative; padding-top:56.25%; }
+  .video iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+  .video p { padding:10px 14px; font-weight:600; }
+  .modules { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
+  .card { background:var(--panel); border:1px solid #222b39; border-radius:10px; padding:18px; }
+  .card h3 { color:var(--accent); font-size:17px; margin-bottom:6px; }
+  .card p { color:var(--muted); font-size:14px; }
+  .contact { background:var(--panel); border-radius:10px; padding:28px; text-align:center; }
+  .contact a { font-size:18px; font-weight:600; }
+  footer { text-align:center; color:var(--muted); font-size:13px; padding:30px 20px 50px; border-top:1px solid #1c2530; }
+  .pill { display:inline-block; background:#1c2530; color:#c3cdd9; font-size:12px;
+    padding:4px 10px; border-radius:20px; margin:4px 4px 0 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>RekindledFX</h1>
+    <p class="tag">Procedural VFX for Unity URP</p>
+    <p class="intro">Self-contained visual effects built entirely from code — electricity, frost &amp; ice, lava, and volumetric light beams. Zero textures, zero dependencies. Just drop them in.</p>
+    <div style="margin-top:14px;">
+      <span class="pill">Procedural</span>
+      <span class="pill">Zero dependencies</span>
+      <span class="pill">URP</span>
+      <span class="pill">Build-safe</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section>
+    <h2>Demos</h2>
+    <div class="videos">
+      <div class="video">
+        <div class="frame"><iframe src="https://www.youtube.com/embed/VIDEO_ID_LAVA" title="Lava" allowfullscreen></iframe></div>
+        <p>Lava — Procedural Lava Flow</p>
+      </div>
+      <div class="video">
+        <div class="frame"><iframe src="https://www.youtube.com/embed/VIDEO_ID_LIGHTNING" title="Lightning" allowfullscreen></iframe></div>
+        <p>Lightning — Electric Arc</p>
+      </div>
+      <div class="video">
+        <div class="frame"><iframe src="https://www.youtube.com/embed/VIDEO_ID_FROST" title="Frost &amp; Ice" allowfullscreen></iframe></div>
+        <p>Frost &amp; Ice — Freeze &amp; Shatter</p>
+      </div>
+      <div class="video">
+        <div class="frame"><iframe src="https://www.youtube.com/embed/VIDEO_ID_BEAM" title="Volumetric Light Beam" allowfullscreen></iframe></div>
+        <p>Volumetric Light Beam</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Modules</h2>
+    <div class="modules">
+      <div class="card"><h3>Lava</h3><p>Fully procedural lava flow shader with crust, glowing cracks, bubbling, HDR heat glow, and rising embers.</p></div>
+      <div class="card"><h3>Lightning</h3><p>Animated procedural electric arcs with flying sparks and a raycast emitter you can hook into gameplay.</p></div>
+      <div class="card"><h3>Frost &amp; Ice</h3><p>Freeze any object with an ice coat, animate the freeze, and shatter it into 3D crystal shards.</p></div>
+      <div class="card"><h3>Volumetric Light Beam</h3><p>Soft volumetric beams with floating dust — god rays, spotlights, sci-fi beams and portals.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="contact">
+      <p style="color:var(--muted); margin-bottom:8px;">Questions, support, or feature requests:</p>
+      <a href="mailto:be.snake@gmail.com">be.snake@gmail.com</a>
+      <p style="margin-top:16px;"><a href="YOUR_PUBLISHER_URL">View our assets on the Unity Asset Store →</a></p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  © RekindledFX — Procedural VFX for Unity. All rights reserved.
+</footer>
+
+</body>
+</html>
